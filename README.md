@@ -12,3 +12,4 @@ Fork the repository, follow the structure of making a new background, create a p
 
 ## Currently Available Backgrounds
 * [wave1](http://webackgrounds.devus.org/wave1)
+* [polka1](http://webackgrounds.devus.org/polka1)
