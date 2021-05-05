@@ -7,4 +7,4 @@ Now quite obviously, we don't expect the background to fit your website's theme 
 NOTE: The background is responsive and changes the wave height from about 50% to 30% on portrait screens for a better experience. This can be changed/removed as per the needs.
 
 ## Used this background anywhere? Get it featured here!
-* [](http://mauvision.devus.org)
+* [Sample Demonstration](http://webackgrounds.devus.org/wave1/background.html)
