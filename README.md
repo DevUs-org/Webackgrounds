@@ -1,4 +1,4 @@
-# Website-Backgrounds
+# Webackgrounds
 A repository with website backgrounds. Suit yourself and choose the best one!
 
 ## How To Use
