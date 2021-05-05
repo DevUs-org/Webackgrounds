@@ -1,4 +1,4 @@
-# Wave-1
+# Wave1
 Use this background in your website and remind your clients of the sea! Well, not quite actually, but it does look amazing, pinky swear! You can preview the background before using it for your projects over [here](http://webackgrounds.devus.org/wave1/background.html).
 
 ## Custom Usage
