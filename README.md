@@ -1,5 +1,5 @@
 # Webackgrounds
-A repository with website backgrounds. Suit yourself and choose the best one!
+An open source repository that form the grounds for all the backgrounds. Suit yourself and choose the best one!
 
 ## How To Use
 1. Choose a background of your choice from the repository; Each folder in the root is a different background.
