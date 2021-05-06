@@ -1,0 +1,17 @@
+# <Background title>
+Describe your background and then add a preview [here](https://webackgrounds.devus.org/<name of your background folder>/background.html).
+
+## Custom Usage
+Define custom use cases of the background.
+
+## Used this background anywhere? Get it featured here!
+* [sample Demonstration](https://webackgrounds.devus.org/<name of your background folder>/background.html)
+* [Additional features](link)
+
+<!------ End of README.md file example ------>
+NOTES FOR THE DEVELOPERS
+* Always include a README.md file in the folders to make sure that the background is available on the website
+* Update the root README.md file's 'Currently Available Backgrounds' section while creating a pull request.
+* Check if the background you are trying to include already exists in the repository or not. Repeated backgrounds might not be merged to main.
+* If there is a similar background in the repository but you have a different implementation of it, then name the folder as background2 (or 3, 4, 5....).
+* First time backgrounds have to be named a background1.

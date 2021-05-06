@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Wave 1</title>
+  </head>
+  <body onclick="goBack();">
+    <style media="screen">
+      body{
+        margin:0;
+        padding:0;
+        cursor: pointer;
+      }
+    </style>
+
+<!--------------------------- Start of background section --------------------------->
+    <style media="screen">
+      //Add relevant CSS here for the background
+    </style>
+    <section>
+      //Add relevant HTML here for the background
+    </section>
+    <script>
+      //Add relevant JS here for the background
+    </script>
+<!--------------------------- End of background section --------------------------->
+
+  </body>
+  <script type="text/javascript">
+    function goBack(){
+      location.replace("../<Enter the name of your background folder>");
+    }
+  </script>
+</html>
