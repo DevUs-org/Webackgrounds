@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Square Up 1</title>
+  </head>
+  <body onclick="goBack();">
+    <style media="screen">
+      body{
+        margin:0;
+        padding:0;
+        cursor: pointer;
+      }
+    </style>
+
+<!--------------------------- Start of background section --------------------------->
+    <style media="screen">
+      section{
+        position:fixed;
+        height: 100vh;
+        width: 100vw;
+        z-index: -100;
+        overflow: hidden;
+        background-image: linear-gradient(to top, #FF867F, #ddd, #ddd, #ddd);
+      }
+
+      .square{
+        opacity: 0.1;
+        border-radius: 10%;
+        background-color: #444;
+      }
+
+      .one{
+        animation: animate1 10s linear infinite;
+        height: 50px;
+        width: 50px;
+        left: 2vw;
+        position: absolute;
+        bottom: -60px;
+      }
+
+      .two{
+        animation: animate2 20s linear infinite;
+        height: 80px;
+        width: 80px;
+        left: 10vw;
+        position: absolute;
+        animation-delay: -8s;
+        bottom: -90px;
+      }
+
+      .three{
+        animation: animate3 15s linear infinite;
+        height: 120px;
+        width: 120px;
+        left: 30vw;
+        position: absolute;
+        animation-delay: -10s;
+        bottom: -130px;
+      }
+
+      .four{
+        animation: animate4 20s linear infinite;
+        height: 180px;
+        width: 180px;
+        left: 35vw;
+        position: absolute;
+        animation-delay: -5s;
+        bottom: -190px;
+      }
+
+      .five{
+        animation: animate1 15s linear infinite;
+        height: 50px;
+        width: 50px;
+        left: 26vw;
+        position: absolute;
+        bottom: -60px;
+        animation-delay: -8s;
+      }
+
+      .six{
+        animation: animate2 8s linear infinite;
+        height: 80px;
+        width: 80px;
+        left: 48vw;
+        position: absolute;
+        bottom: -90px;
+      }
+
+      .seven{
+        animation: animate3 25s linear infinite;
+        height: 120px;
+        width: 120px;
+        left: 65vw;
+        position: absolute;
+        animation-delay: -15s;
+        bottom: -130px;
+      }
+
+      .eight{
+        animation: animate4 20s linear infinite;
+        height: 180px;
+        width: 180px;
+        left: 22vw;
+        position: absolute;
+        animation-delay: -10s;
+        bottom: -190px;
+      }
+
+      .nine{
+        animation: animate1 6s linear infinite;
+        height: 50px;
+        width: 50px;
+        left: 84vw;
+        position: absolute;
+        bottom: -60px;
+        animation-delay: -2s;
+      }
+
+      .ten{
+        animation: animate2 15ss linear infinite;
+        height: 80px;
+        width: 80px;
+        left: 74vw;
+        animation-delay:-3s;
+        position: absolute;
+        bottom: -90px;
+      }
+
+      .eleven{
+        animation: animate3 8s linear infinite;
+        height: 120px;
+        width: 120px;
+        left: 59vw;
+        position: absolute;
+        animation-delay: -4s;
+        bottom: -130px;
+      }
+
+      .twelve{
+        animation: animate4 15s linear infinite;
+        height: 180px;
+        width: 180px;
+        left: 88vw;
+        position: absolute;
+        animation-delay: -10s;
+        bottom: -190px;
+      }
+
+      .thirteen{
+        animation: animate1 12s linear infinite;
+        height: 50px;
+        width: 50px;
+        left: 12vw;
+        position: absolute;
+        bottom: -60px;
+        animation-delay: -10s;
+      }
+
+      .fourteen{
+        animation: animate2 15s linear infinite;
+        height: 80px;
+        width: 80px;
+        left: 74vw;
+        animation-delay:-3s;
+        position: absolute;
+        bottom: -90px;
+      }
+
+      .fifteen{
+        animation: animate3 10s linear infinite;
+        height: 120px;
+        width: 120px;
+        left: 80vw;
+        position: absolute;
+        animation-delay: -2s;
+        bottom: -130px;
+      }
+
+      .sixteen{
+        animation: animate4 10s linear infinite;
+        height: 180px;
+        width: 180px;
+        left: 69vw;
+        position: absolute;
+        animation-delay: -5s;
+        bottom: -190px;
+      }
+
+      @keyframes animate1 {
+        0%{
+          transform: rotate(450deg);
+        }
+
+        100%{
+          bottom: 25vh;
+          transform: rotate(45deg);
+          opacity: 0;
+        }
+      }
+
+      @keyframes animate2 {
+        0%{
+          transform: rotate(60deg);
+        }
+
+        100%{
+          bottom: 33vh;
+          transform: rotate(200deg);
+          opacity: 0;
+        }
+      }
+
+      @keyframes animate3 {
+        0%{
+          transform: rotate(60deg);
+        }
+
+        100%{
+          bottom: 50vh;
+          transform: rotate(150deg);
+          opacity: 0;
+        }
+      }
+
+      @keyframes animate4 {
+        0%{
+          transform: rotate(120deg);
+        }
+
+        100%{
+          bottom: 60vh;
+          transform: rotate(0deg);
+          opacity: 0;
+        }
+      }
+
+    </style>
+    <section>
+      <div class="one square">
+
+      </div>
+      <div class="two square">
+
+      </div>
+      <div class="three square">
+
+      </div>
+      <div class="four square">
+
+      </div>
+      <div class="five square">
+
+      </div>
+      <div class="six square">
+
+      </div>
+      <div class="seven square">
+
+      </div>
+      <div class="eight square">
+
+      </div>
+      <div class="nine square">
+
+      </div>
+      <div class="ten square">
+
+      </div>
+      <div class="eleven square">
+
+      </div>
+      <div class="twelve square">
+
+      </div>
+      <div class="thirteen square">
+
+      </div>
+      <div class="fourteen square">
+
+      </div>
+      <div class="fifteen square">
+
+      </div>
+      <div class="sixteen square">
+
+      </div>
+    </section>
+<!--------------------------- End of background section --------------------------->
+
+  </body>
+  <script type="text/javascript">
+    function goBack(){
+      location.replace(location.href.split("background.html")[0]);
+    }
+  </script>
+</html>

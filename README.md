@@ -13,3 +13,4 @@ Fork the repository, follow the structure as given in the [sample](https://githu
 ## Currently Available Backgrounds
 * [wave1](http://webackgrounds.devus.org/wave1)
 * [polka1](http://webackgrounds.devus.org/polka1)
+* [square-up1](http://webackgrounds.devus.org/square-up1)
