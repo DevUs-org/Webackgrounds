@@ -28,7 +28,7 @@
   </body>
   <script type="text/javascript">
     function goBack(){
-      location.replace("../<Enter the name of your background folder>");
+      location.replace(location.href.split("background.html")[0]);
     }
   </script>
 </html>
