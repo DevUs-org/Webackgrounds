@@ -8,7 +8,7 @@ An open source [repository](https://github.com/DevUs-org/Website-Backgrounds) th
 4. Refer to individual markdowns available in background folders for more information about the usage of individual backgrounds.
 
 ## Contribute To The initiative
-Fork the repository, follow the structure as given in the [sample](https://github.com/DevUs-org/Website-Backgrounds/sample) folder to make a new background, create a pull request and it will be merged by us as soon as we can. Make sure that the background is pure HTML, CSS and JavaScript. Include CSS media queries, if required. Refer to the [sample README.md](https://https://github.com/DevUs-org/Website-Backgrounds/sample/README.md.example) file for other points to be kept in mind while creating a pull request for a background.
+Fork the repository, follow the structure as given in the [sample](https://github.com/DevUs-org/Webackgrounds/tree/main/sample) folder to make a new background, create a pull request and it will be merged by us as soon as we can. Make sure that the background is pure HTML, CSS and JavaScript. Include CSS media queries, if required. Refer to the [sample README.md](https://github.com/DevUs-org/Webackgrounds/tree/main/sample/README.md.example) file for other points to be kept in mind while creating a pull request for a background.
 
 ## Currently Available Backgrounds
 * [wave1](http://webackgrounds.devus.org/wave1)
