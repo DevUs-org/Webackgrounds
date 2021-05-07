@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Wave 1</title>
+    <title>Sample 1</title> //Edit background name here
   </head>
   <body onclick="goBack();">
     <style media="screen">

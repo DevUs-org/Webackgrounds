@@ -18,3 +18,4 @@ NOTES FOR THE DEVELOPERS
 * Check if the background you are trying to include already exists in the repository or not. Repeated backgrounds might not be merged to main.
 * If there is a similar background in the repository but you have a different implementation of it, then name the folder as background2 (or 3, 4, 5....).
 * First time backgrounds have to be named a background1.
+* Edit the title of background.html page to resemble your background
