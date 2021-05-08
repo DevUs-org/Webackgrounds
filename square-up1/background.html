@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Square Up 1</title>
   </head>
-  <body onclick="goBack();">
+  <body onclick="goBack();" style='visibility: none' onload="makeVisible();">
     <style media="screen">
       body{
         margin:0;
@@ -22,16 +22,12 @@
         z-index: -100;
         overflow: hidden;
         background-image: linear-gradient(to top, #AC4DF3, #eee);
-        -webkit-perspective: 1000;
-        -webkit-transform-style: preserve-3d;
-        -webkit-transform: translate3d(0, 0, 0);
       }
 
       .square{
         opacity: 0.1;
         border-radius: 10%;
         background-color: #444;
-        -webkit-backface-visibility: none;
       }
 
       .one{
@@ -297,6 +293,9 @@
   <script type="text/javascript">
     function goBack(){
       location.replace(location.href.split("background.html")[0]);
+    }
+    function makeVisible(){
+      document.body.style.visibility='visible';
     }
   </script>
 </html>
