@@ -11,7 +11,7 @@
       }
     </style>
   </head>
-  <body onclick="goBack()">
+  <body onclick="goBack()" style='visibility: none' onload="makeVisible();">
 
 <!------------------------------ Start Background Section -------------------------------->
     <style media="screen">
@@ -36,6 +36,9 @@
   <script type="text/javascript">
     function goBack(){
       location.replace(location.href.split("background.html")[0]);
+    }
+    function makeVisible(){
+      document.body.style.visibility='visible';
     }
   </script>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Sample 1</title> //Edit background name here
   </head>
-  <body onclick="goBack();">
+  <body onclick="goBack();" style='visibility: none' onload="makeVisible();">
     <style media="screen">
       body{
         margin:0;
@@ -29,6 +29,9 @@
   <script type="text/javascript">
     function goBack(){
       location.replace(location.href.split("background.html")[0]);
+    }
+    function makeVisible(){
+      document.body.style.visibility='visible';
     }
   </script>
 </html>
